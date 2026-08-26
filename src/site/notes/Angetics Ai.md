@@ -28,6 +28,98 @@ Key benefit: Vercel provides automatic deployments, global content delivery, HTT
 
 
 
+-----
+
+
+
+
+
+
+
+# What is a Large Language Model (LLM)?
+
+A Large Language Model (LLM) is an advanced Artificial Intelligence (AI) system trained on enormous amounts of text, including books, websites, articles, research papers, and source code. Its purpose is to understand, interpret, and generate human-like language, enabling it to answer questions, write content, summarize information, translate languages, and even assist with programming.
+
+## How an LLM Works
+
+The working process of an LLM can be understood in five simple steps:
+
+1. User Prompt – The user provides a question, instruction, or request.
+    
+2. Tokenization – The input text is broken into smaller units called tokens.
+    
+3. Context Analysis – The Transformer-based LLM analyzes the tokens and understands their meaning and relationships.
+    
+4. Token Prediction – The model predicts the next most probable token repeatedly until a complete response is formed.
+    
+5. Response Generation – The final text is generated and displayed to the user.
+    
+
+## Advantages
+
+- Understands and processes natural language effectively.
+    
+- Generates coherent, human-like responses.
+    
+- Performs tasks such as question answering, translation, summarization, and code generation.
+    
+- Processes large volumes of text quickly and efficiently.
+    
+
+## Applications
+
+LLMs are widely used across many industries, including:
+
+- AI Chatbots (e.g., ChatGPT)
+    
+- Virtual Assistants
+    
+- Content and Copy Writing
+    
+- Language Translation
+    
+- Text Summarization
+    
+- Code Generation and Programming Assistance
+    
+- Customer Support Automation
+
+
+
+-----
+
+# What is a Token?
+
+A token is the smallest unit of text that a Large Language Model (LLM) processes. Instead of reading entire sentences as humans do, the model breaks text into smaller pieces called tokens. A token may represent a whole word, part of a word, punctuation, or even a space.
+
+### Token size (approximate)
+
+- 1 token ≈ 4 English characters
+    
+- 1 token ≈ 0.75 English words
+    
+- 100 tokens ≈ 75 words
+    
+
+Example: The word “indivisible” may be split into three tokens: `in` + `divis` + `ible`.
+
+# How Tokenization Works
+
+Tokenization is the process of converting human-readable text into a format that an AI model can understand. It acts as the bridge between language and mathematics.
+
+### 1. Subword Splitting
+
+The tokenizer analyzes the text and divides it into tokens. Common words are usually kept as a single token, while longer or uncommon words are split into meaningful subword fragments using algorithms such as Byte Pair Encoding (BPE).
+
+### 2. Vocabulary Lookup
+
+Each token is assigned a unique integer ID from the model’s predefined vocabulary, which typically contains 32,000 to over 100,000 different tokens. The model works with these IDs rather than the original text.
+
+### 3. Vector Embedding
+
+The integer IDs are transformed into vector embeddings—high-dimensional numerical representations that capture the meaning and relationships between words. These vectors are then processed by the neural network to understand context and generate responses
+
+-----
 
 
 
