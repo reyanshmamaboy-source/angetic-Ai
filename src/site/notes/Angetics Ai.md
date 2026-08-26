@@ -121,6 +121,60 @@ The integer IDs are transformed into vector embeddings—high-dimensional numeri
 
 -----
 
+# What is RAG (Retrieval-Augmented Generation)?
+
+Retrieval-Augmented Generation (RAG) is an AI framework that combines a Large Language Model (LLM) with an external knowledge source to generate accurate, relevant, and up-to-date responses. Instead of relying only on the information learned during training, RAG retrieves information from documents, databases, websites, or internal files at the time of a user's query.
+
+This makes the responses more reliable and better suited for tasks that require current or domain-specific knowledge.
+
+## How RAG Works
+
+The RAG process consists of three main stages:
+
+### 1. Retrieve
+
+When a user submits a query, the system searches an external knowledge base for the most relevant information. This search is commonly performed using vector embeddings and similarity search, and may also include traditional keyword-based searching.
+
+Example sources: PDFs, databases, company documents, websites, or knowledge bases.
+
+### 2. Augment
+
+The retrieved text is added to the user's original prompt as additional context. This enriched prompt gives the language model access to relevant information before generating a response.
+
+### 3. Generate
+
+The LLM reads both the user's question and the retrieved content, then generates a response that is grounded in the provided information while also using its general language understanding.
+
+## Why is RAG Important?
+
+RAG improves the quality and reliability of AI systems in several ways:
+
+- Reduces hallucinations by grounding responses in real source material.
+    
+- Provides up-to-date knowledge without retraining the model.
+    
+- Supports private and domain-specific data, such as internal company documents.
+    
+- Enables source citations, making answers more transparent and verifiable.
+    
+
+## Common Applications
+
+RAG is widely used in real-world AI solutions, including:
+
+- Internal document and knowledge-base chatbots
+    
+- Customer support and product manual assistants
+    
+- Research assistants for books, PDFs, and academic papers
+    
+- Enterprise search engines with cited summaries
+    
+- Legal, healthcare, and educational information systems
+
+
+-----
+
 
 
 
