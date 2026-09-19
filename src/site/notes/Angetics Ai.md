@@ -321,13 +321,75 @@ RAG is widely used in real-world AI solutions, including:
 - Enterprise search engines with cited summaries
     
 - Legal, healthcare, and educational information systems
+-
 
 
 -----
 
+## What is AI Hallucination (AI Illusion)?
+
+AI hallucination is when an AI produces information that sounds accurate and convincing but is actually false, fabricated, or not supported by reliable evidence.
+
+### Example
+
+Question: “Who invented the smartphone in 1980?”
+
+A hallucinating AI might confidently give a person's name, a company, and a detailed backstory—even though those details are completely fictional.
+
+## Why does AI hallucination happen?
+
+AI generates responses by predicting the most likely sequence of words from its training and the conversation context. It does not automatically fact-check every statement before answering.
+
+Common causes include:
+
+- Missing or incomplete information
+    
+- Ambiguous or unclear questions
+    
+- Outdated knowledge
+    
+- Conflicting information in the context
+    
+- Trying to answer instead of admitting uncertainty
+    
+- Misinterpreting the user's request
+    
+
+## Common types of AI hallucinations
+
+|Type|Example|
+|---|---|
+|Made-up facts|Inventing a person, event, or statistic|
+|Fake citations|Creating references or research papers that do not exist|
+|Invented details|Adding information that was never provided|
+|Wrong calculations|Producing an incorrect mathematical answer|
+|Misinterpretation|Answering a different question than the one asked|
+
+------
 
 
 
+## What is an Embedding?
 
+An embedding is a numerical vector (a list of numbers) that represents the meaning of text, images, or other data. It captures semantic meaning so AI can compare items, find similarities, and understand relationships between them.
+
+### Common Types of Embeddings
+
+- Word Embeddings: Convert individual words into vectors (e.g., Word2Vec, GloVe).
+    
+- Sentence/Text Embeddings: Represent an entire sentence, paragraph, or document as a single vector that captures its overall meaning.
+    
+- Multimodal Embeddings: Map different types of data—such as text and images—into the same vector space, allowing related items to be matched (e.g., a cat image and the word “cat”).
+    
+
+## How do Embeddings Work?
+
+- They convert data into numbers: AI models cannot process raw text directly, so embeddings transform words, sentences, or images into numerical vectors.
+    
+- Similar meanings stay close together: Items with related meanings are positioned near each other in the vector space. For example, cat and dog are closer than cat and airplane.
+    
+- They capture relationships: The distance and direction between vectors can represent meaningful relationships, such as king − man + woman ≈ queen.
+    
+-------
 
 
